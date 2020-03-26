@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 const chalk = require('chalk')
 console.log('Hello, cli!')
-console.log(chalk.green('init创建'))
 const fs = require('fs')
 const program = require('commander')
 const download = require('download-git-repo')
